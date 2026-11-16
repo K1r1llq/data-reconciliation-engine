@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Project datasets
+# Ignore local datasets and generated files
+data/*
+!data/.gitkeep
