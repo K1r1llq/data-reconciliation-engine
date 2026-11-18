@@ -13,3 +13,11 @@ def test_normalize_items():
     result = normalize_items(items)
 
     assert result == expected
+
+def test_normalize_items_empty():
+    items = []
+    expected = set()
+
+    result = normalize_items(items)
+
+    assert result == expected
